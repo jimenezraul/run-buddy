@@ -83,12 +83,17 @@ footer a {
     color: #024e76;
 }
 
+.flex-row {
+    display: flex;
+}
+
 .section-title {
+    width: 50%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 
@@ -167,11 +172,8 @@ footer a {
     font-size: 16px;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
+    text-align: center;
     line-height: 1.7;
     margin: 0 auto;
     color: #39a6b2;
@@ -180,7 +182,6 @@ footer a {
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -208,9 +209,6 @@ footer a {
     font-size: 38px;
 }
 
-.trainers {
-    text-align: center;
-}
 
 .trainer {
     overflow: auto;
@@ -256,7 +254,6 @@ footer a {
 }
 
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
